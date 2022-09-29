@@ -7,10 +7,6 @@ section {
 
 .list-product {
     text-align: center;
-    display: flex;
-    flex-wrap: wrap;
-    margin: auto 150px;
-    gap: 10px;
 }
 
 .list-product:hover li a {
@@ -29,12 +25,14 @@ section {
     color: #fff;
     letter-spacing: 4px;
     background: darkblue;
-    padding: 10px 15px;
+    padding: 6px 15px;
     border-radius: 20px;
     display: inline-block;
-    width: 220px;
-    height: 50px;
+    width: 400px;
+    height: 80px;
     transition: 0.5s;
+    position: relative;
+    z-index: 10;
     text-transform: uppercase;
     -webkit-border-radius: 20px;
     -moz-border-radius: 20px;
@@ -48,8 +46,8 @@ section {
 
 .list-product li a:hover {
     background: darkmagenta;
-    opacity: 1;
     transform: scale(1.5);
+    opacity: 1;
     -webkit-transform: scale(1.5);
     -moz-transform: scale(1.5);
     -ms-transform: scale(1.5);
@@ -62,7 +60,7 @@ section {
     position: absolute;
     left: 50%;
     top: 50%;
-    font-size: 50px;
+    font-size: 80px;
     font-weight: 900;
     text-transform: uppercase;
     opacity: 0;
@@ -115,16 +113,4 @@ section {
 .list-product li:hover::before {
     opacity: 0.5;
     width: 80px;
-}
-
-.Image {
-    width: 30%;
-    height: 60px;
-    border-radius: 50%;
-    border: 3px solid #fff;
-    mix-blend-mode: screen;
-    -webkit-border-radius: 50%;
-    -moz-border-radius: 50%;
-    -ms-border-radius: 50%;
-    -o-border-radius: 50%;
 }

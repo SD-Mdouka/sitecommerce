@@ -4,6 +4,8 @@ import axios from "axios";
 import "../Style/styelProduct.css";
 
 const ProductPage = () => {
+  //   const req = await fetch("https://fakestoreapi.com/products");
+  // const productList = await req.json();
   const [product, setProduct] = useState([]);
   useEffect(() => {
     axios.get("https://fakestoreapi.com/products").then((res) => {
@@ -16,12 +18,8 @@ const ProductPage = () => {
         <ul className="list-product">
           {product.map((profilItme) => {
             return (
-              <li data-text={profilItme.title}>
-                <a href="">
-                  <p>{profilItme.category}</p>
-                  <p>{profilItme.price}$</p>
-                  <img className="Image" src={profilItme.image} />
-                </a>
+              <li data-text={profilItme.price}>
+                <a href="">{profilItme.title}</a>
               </li>
             );
           })}

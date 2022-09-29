@@ -7,10 +7,6 @@ section {
 
 .list-product {
     text-align: center;
-    display: flex;
-    flex-wrap: wrap;
-    margin: auto 150px;
-    gap: 10px;
 }
 
 .list-product:hover li a {
@@ -29,12 +25,13 @@ section {
     color: #fff;
     letter-spacing: 4px;
     background: darkblue;
-    padding: 10px 15px;
+    padding: 6px 15px;
     border-radius: 20px;
     display: inline-block;
-    width: 220px;
-    height: 50px;
+    width: 400px;
     transition: 0.5s;
+    position: relative;
+    z-index: 10;
     text-transform: uppercase;
     -webkit-border-radius: 20px;
     -moz-border-radius: 20px;
@@ -56,13 +53,21 @@ section {
     -o-transform: scale(1.5);
 }
 
+.list-product li::after a:hover {
+    transform: translate(-50%, -0%);
+    -webkit-transform: translate(-50%, -0%);
+    -moz-transform: translate(-50%, -0%);
+    -ms-transform: translate(-50%, -0%);
+    -o-transform: translate(-50%, -0%);
+}
+
 .list-product li::after {
     content: attr(data-text);
     color: #fff;
     position: absolute;
     left: 50%;
     top: 50%;
-    font-size: 50px;
+    font-size: 80px;
     font-weight: 900;
     text-transform: uppercase;
     opacity: 0;
@@ -73,11 +78,11 @@ section {
     -moz-transition: 0.5s;
     -ms-transition: 0.5s;
     -o-transition: 0.5s;
-    transform: translate(-50%, -50%);
-    -webkit-transform: translate(-50%, -50%);
-    -moz-transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-    -o-transform: translate(-50%, -50%);
+    transform: translate(-50%, -0%);
+    -webkit-transform: translate(-50%, -0%);
+    -moz-transform: translate(-50%, -0%);
+    -ms-transform: translate(-50%, -0%);
+    -o-transform: translate(-50%, -0%);
 }
 
 .list-product li:hover::after {
@@ -89,7 +94,6 @@ section {
     content: "";
     width: 180px;
     height: 80px;
-    background: #fff;
     position: absolute;
     left: 50%;
     top: 50%;
@@ -119,10 +123,8 @@ section {
 
 .Image {
     width: 30%;
-    height: 60px;
     border-radius: 50%;
     border: 3px solid #fff;
-    mix-blend-mode: screen;
     -webkit-border-radius: 50%;
     -moz-border-radius: 50%;
     -ms-border-radius: 50%;

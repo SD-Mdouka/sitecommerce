@@ -19,7 +19,7 @@ const ProductPage = () => {
               <li data-text={profilItme.title}>
                 <a href="">
                   <p>{profilItme.category}</p>
-                  <p>{profilItme.price}$</p>
+                  <p>{profilItme.price}</p>
                   <img className="Image" src={profilItme.image} />
                 </a>
               </li>

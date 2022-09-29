@@ -9,8 +9,7 @@ section {
     text-align: center;
     display: flex;
     flex-wrap: wrap;
-    margin: auto 150px;
-    gap: 10px;
+    margin: auto 120px;
 }
 
 .list-product:hover li a {
@@ -29,7 +28,7 @@ section {
     color: #fff;
     letter-spacing: 4px;
     background: darkblue;
-    padding: 10px 15px;
+    padding: 6px 15px;
     border-radius: 20px;
     display: inline-block;
     width: 220px;

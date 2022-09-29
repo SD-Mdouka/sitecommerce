@@ -16,12 +16,9 @@ const ProductPage = () => {
         <ul className="list-product">
           {product.map((profilItme) => {
             return (
-              <li data-text={profilItme.title}>
-                <a href="">
-                  <p>{profilItme.category}</p>
-                  <p>{profilItme.price}$</p>
-                  <img className="Image" src={profilItme.image} />
-                </a>
+              <li data-text={profilItme.title + "\n'" + profilItme.price}>
+                <img src={profilItme.image} />
+                <a href="">{profilItme.category}</a>
               </li>
             );
           })}
