@@ -1,0 +1,118 @@
+{
+    "works": [{
+            "id": "1",
+            "icon_name": "icon fa fa-chain fa-2x",
+            "title": "Mobile Ux",
+            "body": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus quos omnis voluptas ea ipsam! Voluptas."
+        },
+        {
+            "id": 2,
+            "icon_name": "icon fa fa-bolt fa-2x",
+            "title": "Mobile Ux",
+            "body": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus quos omnis voluptas ea ipsam! Voluptas."
+        },
+        {
+            "id": 3,
+            "icon_name": "icon fa fa-tachometer fa-2x",
+            "title": "Mobile Ux",
+            "body": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus quos omnis voluptas ea ipsam! Voluptas."
+        }
+    ],
+
+    "portfolio": [{
+            "id": 1,
+            "image": "/images/Portfolio/portfolio-img1.jpg"
+        },
+        {
+            "id": 2,
+            "image": "/images/Portfolio/portfolio-img2.jpg"
+        },
+        {
+            "id": 3,
+            "image": "/images/Portfolio/portfolio-img3.jpg"
+        },
+        {
+            "id": 4,
+            "image": "/images/Portfolio/portfolio-img4.jpg"
+        },
+        {
+            "id": 5,
+            "image": "/images/Portfolio/portfolio-img5.jpg"
+        },
+        {
+            "id": 6,
+            "image": "/images/Portfolio/portfolio-img6.jpg"
+        },
+        {
+            "id": 7,
+            "image": "/images/Portfolio/portfolio-img4.jpg"
+        },
+        {
+            "id": 8,
+            "image": "/image/about/meriem-oudghiri.jpg"
+        }
+    ],
+    "social": [{
+            "id": 1,
+            "icon": "facebook",
+            "title": "Follow Me on",
+            "body": "Social Facebook"
+        },
+        {
+            "id": 2,
+            "icon": "twitter",
+            "title": "Tweet Me on",
+            "body": "Social twitter"
+        },
+        {
+            "id": 3,
+            "icon": "youtuob",
+            "title": "Youtuob",
+            "body": "Social Youtuob"
+        },
+        {
+            "id": 4,
+            "icon": "Watsappe",
+            "title": "Watsappe",
+            "body": "Social Watsappe"
+        },
+        {
+            "id": 5,
+            "icon": "Instagrame",
+            "title": "Instagrame",
+            "body": "Social Instagrame"
+        },
+        {
+            "id": 6,
+            "icon": "Telegrame",
+            "title": "Telegrame",
+            "body": "Social Telegrame"
+        }
+    ],
+    "profile": [{
+            "id": 1,
+            "title": "L'Indice des prix à la consommation (IPC)",
+            "pourcentage": "1,5%"
+        },
+        {
+            "id": 2,
+            "title": "L’indice de la production industrielle, énergétique et minière (IPI)",
+            "pourcentage": "1.8%"
+        },
+        {
+            "id": 3,
+            "title": "un produit intérieur brut (PIB)",
+            "pourcentage": "7,2%"
+        }
+    ],
+    "myprofile": [{
+        "id": 1,
+        "name": "Meriem OUDGHIRI",
+        "Formation": "Juriste de formation, Meriem Oudghiri a démarré sa carrière professionnelle au sein de L’Economiste en 1991. Elle est Secrétaire générale de la rédaction. Elle est également, depuis 2016, présidente de l'Union de la Presse Francophone (UPF) - Section Maroc et Vice-présidente internationale de l'UPF (2018). Meriem Oudghiri est aussi membre élu du collège des journalistes du Conseil National de la Presse et est membre & ambassadrice d’un réseau mondial de médias dans le domaine de l’innovation sociale.",
+        "PareFeu": "Edition N° 6356 | Le 27/09/2022 Tous les yeux sont rivés sur la capitale où se tient aujourd’hui le Conseil de BAM: la décision de la banque centrale au sujet du taux directeur. Changera, changera pas? Une hausse pourrait freiner l’inflation et favoriser l’épargne. Mais elle aurait pour conséquence le ralentissement de la croissance. Dans l’état actuel de la situation économique, le Maroc peut-il se permettre de prendre",
+        "Stratege": "Edition N° 6350 | Le 19/09/2022 La réforme des EEP, entreprises et établissements publics, est bien en marche. Au cœur du processus, une pièce maîtresse: l’Agence nationale de gestion stratégique des participations de l’Etat. L’idée de ce méga-chantier est de restructurer, valoriser les participations de l’Etat et améliorer leurs performances pour en faire un moteur de développement économique et une locomotive pour le...",
+        "JeunesMorocco": "Edition N° 6329 | Le 19/08/2022 Jeunes et politique, jeunes et em­ploi, jeunes et gouvernance, … des milliers d’études, de rapports, d’enquêtes, de colloques consacrés depuis des années à cette théma­tique. Chaque gouvernement qui arrive sort de son chapeau un pro­gramme dédié. Pour quels résultats palpables? Aujourd’hui, la réalité est crue: au lieu d’être un énorme potentiel pour construire l’avenir, ils «deviennent un...",
+        "website": "https://www.leconomiste.com/content/meriem-oudghiri",
+        "image": "/image/about/meriem-oudghiri.jpg"
+    }]
+}

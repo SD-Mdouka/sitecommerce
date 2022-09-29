@@ -1,0 +1,215 @@
+.section_padding {
+    padding: 100px;
+    position: relative;
+    z-index: -1;
+}
+
+.container {
+    color: #fff;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 30px;
+    grid-template-areas: "SectionTitle ." "firstName LastName" "EmailAdresse PhoneNumber" "ProjectTitle SelectedOption" "UserMessage UserMessage";
+}
+
+.firstName {
+    grid-area: firstName;
+}
+
+.LastName {
+    grid-area: LastName;
+}
+
+.EmailAdresse {
+    grid-area: EmailAdresse;
+}
+
+.PhoneNumber {
+    grid-area: PhoneNumber;
+}
+
+.ProjectTitle {
+    grid-area: ProjectTitle;
+}
+
+.SelectedOption {
+    grid-area: SelectedOption;
+}
+
+.UserMessage {
+    grid-area: UserMessage;
+}
+
+.SectionTitle {
+    grid-area: SectionTitle;
+}
+
+.section_title {
+    max-width: 570px;
+    margin: auto auto 45px;
+}
+
+.section_title h2 {
+    margin-bottom: 14px;
+    position: relative;
+}
+
+.section_title p {
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+
+.form_group {
+    margin-bottom: 30px;
+}
+
+.form_group .form_control {
+    border-radius: 30px;
+    width: 100%;
+    height: 45px;
+    background: #fff;
+    padding-left: 20px;
+    box-shadow: 2.5px 4.33px 15px #00000026;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+}
+
+.form_group textarea {
+    padding-top: 20px;
+    min-height: 145px;
+}
+
+.deneb_btn {
+    display: inline-block;
+    min-width: 127px;
+    height: 45px;
+    color: #fff;
+    font: 500 15px Poppins, sans-serif;
+    text-align: center;
+    background: #feb000;
+    line-height: 45px;
+    border-radius: 23px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    transition: 0.5s;
+    margin-top: 10px;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+    -webkit-border-radius: 23px;
+    -moz-border-radius: 23px;
+    -ms-border-radius: 23px;
+    -o-border-radius: 23px;
+}
+
+.button_box .deneb_btn {
+    min-width: 170px;
+}
+
+.section_title h2:after {
+    position: absolute;
+    content: "";
+    top: -20px;
+    background: url(data:image/png;base64,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) no-repeat;
+    display: inline-block;
+    width: 96px;
+    height: 67px;
+    z-index: -1;
+    left: -30px;
+}
+
+.form_group select {
+    border-radius: 30px;
+    width: 100%;
+    height: 45px;
+    background: #fff;
+    padding-left: 20px;
+    box-shadow: 2.5px 4.33px 15px #00000026;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+}
+
+.form_group select option {
+    max-width: 300px;
+}
+
+
+/*Style socail*/
+
+.youtuob svg path,
+.youtuob {
+    fill: #fff;
+    background-color: rgb(239, 46, 65);
+    height: 50%;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+.facebook svg path,
+.facebook {
+    fill: #fff;
+    background-color: #4267b2;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    height: 50%;
+}
+
+.twitter svg path,
+.twitter {
+    fill: #fff;
+    background-color: #1da1f2;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    height: 50%;
+}
+
+.Watsappe svg path,
+.Watsappe {
+    fill: #fff;
+    background-color: #25d366;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    height: 50%;
+}
+
+.Instagrame svg path,
+.Instagrame {
+    fill: #fff;
+    background-color: #f56040;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    height: 50%;
+}
+
+.Telegrame svg path,
+.Telegrame {
+    fill: #fff !important;
+    background-color: #000;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    height: 50%;
+}
