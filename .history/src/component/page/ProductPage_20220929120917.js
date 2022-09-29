@@ -1,34 +1,33 @@
 import React from "react";
 import { Layout } from "../share-component/Layout/Layout";
-import "../Style/styelProduct.css";
 
 const ProductPage = () => {
   return (
     <Layout>
       <section>
-        <ul className="list-product">
-          <li data-text="sum">
+        <ul>
+          <li>
             <a href="">sum</a>
           </li>
-          <li data-text="mercury">
+          <li>
             <a href="">mercury</a>
           </li>
-          <li data-text="venus">
+          <li>
             <a href="">venus</a>
           </li>
-          <li data-text="earth">
+          <li>
             <a href="">earth</a>
           </li>
-          <li data-text="jupiter">
+          <li>
             <a href="">jupiter</a>
           </li>
-          <li data-text="saturn">
+          <li>
             <a href="">saturn</a>
           </li>
-          <li data-text="uranus">
+          <li>
             <a href="">uranus</a>
           </li>
-          <li data-text="neptune">
+          <li>
             <a href="">neptune</a>
           </li>
         </ul>

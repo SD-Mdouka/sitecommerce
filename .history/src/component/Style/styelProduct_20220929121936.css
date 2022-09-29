@@ -1,0 +1,21 @@
+section {
+    background: url(/public/image/stars1.png);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul {
+    text-align: center;
+}
+
+ul li {
+    list-style: none;
+    margin: 14px 0;
+}
+
+ul li a {
+    text-decoration: none;
+    color: #fff;
+}

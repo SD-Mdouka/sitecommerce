@@ -6,7 +6,7 @@ const ProductPage = () => {
   return (
     <Layout>
       <section>
-        <ul className="list-product">
+        <ul>
           <li data-text="sum">
             <a href="">sum</a>
           </li>

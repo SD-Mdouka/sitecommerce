@@ -1,0 +1,116 @@
+section {
+    background: url(/public/image/stars1.png);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.list-product {
+    text-align: center;
+}
+
+.list-product:hover li a {
+    opacity: 0;
+}
+
+.list-product li {
+    list-style: none;
+    margin: 14px 0;
+}
+
+.list-product li a {
+    font-size: 20px;
+    font-weight: 500;
+    text-decoration: none;
+    color: #fff;
+    letter-spacing: 4px;
+    background: darkblue;
+    padding: 6px 15px;
+    border-radius: 20px;
+    display: inline-block;
+    width: 120px;
+    transition: 0.5s;
+    text-transform: uppercase;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+    position: relative;
+    z-index: 10;
+}
+
+.list-product li a:hover {
+    background: darkmagenta;
+    transform: scale(1.5);
+    opacity: 1;
+    -webkit-transform: scale(1.5);
+    -moz-transform: scale(1.5);
+    -ms-transform: scale(1.5);
+    -o-transform: scale(1.5);
+}
+
+.list-product li::after {
+    content: attr(data-text);
+    color: #fff;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    font-size: 80px;
+    font-weight: 900;
+    text-transform: uppercase;
+    opacity: 0;
+    letter-spacing: 50px;
+    pointer-events: none;
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+}
+
+.list-product li:hover::after {
+    opacity: 0.5;
+    letter-spacing: 5px;
+}
+
+.list-product li::before {
+    content: "";
+    width: 180px;
+    height: 80px;
+    background: #fff;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, 70%);
+    -webkit-transform: translate(-50%, 70%);
+    -moz-transform: translate(-50%, 70%);
+    -ms-transform: translate(-50%, 70%);
+    -o-transform: translate(-50%, 70%);
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    box-shadow: 0 0 80px orangered;
+    opacity: 0;
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+}
+
+.list-product li:hover::before {
+    opacity: 0.5;
+    width: 80px;
+}

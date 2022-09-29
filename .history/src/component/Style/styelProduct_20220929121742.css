@@ -1,0 +1,9 @@
+section {
+    background: url(/public/image/stars1.png);
+    height: 100vh;
+    display: flex;
+}
+
+ul {
+    justify-content: center;
+}

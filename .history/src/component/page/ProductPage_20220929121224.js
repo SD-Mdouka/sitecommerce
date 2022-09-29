@@ -1,12 +1,11 @@
 import React from "react";
 import { Layout } from "../share-component/Layout/Layout";
-import "../Style/styelProduct.css";
 
 const ProductPage = () => {
   return (
     <Layout>
       <section>
-        <ul className="list-product">
+        <ul>
           <li data-text="sum">
             <a href="">sum</a>
           </li>
