@@ -50,10 +50,10 @@ section {
     background: darkmagenta;
     opacity: 1;
     transform: scale(1.5);
-    -webkit-transform: scale(1.5);
-    -moz-transform: scale(1.5);
-    -ms-transform: scale(1.5);
-    -o-transform: scale(1.5);
+    -webkit-transform: ;
+    -moz-transform: ;
+    -ms-transform: ;
+    -o-transform: ;
 }
 
 .list-product li::after {
@@ -93,7 +93,7 @@ section {
     position: absolute;
     left: 50%;
     top: 50%;
-    box-shadow: 0 0 80px rgb(243, 119, 73);
+    box-shadow: 0 0 80px orangered;
     opacity: 0;
     transition: 0.5s;
     -webkit-transition: 0.5s;
